@@ -1,0 +1,12 @@
+a = [1,2,3,4,5]
+a.append(6)
+print(a)
+a.insert(2,3)
+print(a)
+print(a[2:5])
+a.extend([7,8,9])
+print(a)
+a.remove(2)
+print(a)
+a.remove(3)
+print(a)
